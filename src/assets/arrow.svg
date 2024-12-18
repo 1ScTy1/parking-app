@@ -1,0 +1,11 @@
+<svg width="60.000000" height="60.000000" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<circle id="BG" cx="30.000000" cy="30.000000" r="30.000000" fill="#293038" fill-opacity="1.000000"/>
+	<rect id="Icon" rx="0.000000" width="27.000000" height="27.000000" transform="translate(16.500000 16.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<path id="Vector" d="M27.16 22.91L20.08 30L27.16 37.08" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<path id="Vector" d="M39.91 30L20.28 30" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<g opacity="0.000000"/>
+</svg>
