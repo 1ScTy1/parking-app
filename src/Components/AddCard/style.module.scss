@@ -1,0 +1,125 @@
+.addCard {
+  padding: 16px 24px;
+  width: 440px;
+  height: 812px;
+  background: rgb(17 24 39);
+  .addCard__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28.5px;
+    img {
+      width: 60px;
+      height: 60px;
+      cursor: pointer;
+    }
+    h3 {
+      color: rgb(255, 255, 255);
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+  .addCard__cards {
+    margin: 32px 0px 36px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    .card {
+      width: 63px;
+      height: 63px;
+      filter: drop-shadow(5px 5px 6px rgb(225, 225, 225, 0.4));
+    }
+    .checkMark {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      cursor: pointer;
+    }
+    .addCard__cardsLeft {
+      position: relative;
+      width: 176px;
+      height: 144px;
+      border-radius: 16px;
+      background: rgb(41, 48, 56);
+      .addCard__cardsLeftMain {
+        padding: 20px 20px 28px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        p {
+          color: rgb(255, 255, 255);
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 34.57px;
+        }
+      }
+    }
+    .addCard__cardsRight {
+      position: relative;
+      width: 176px;
+      height: 144px;
+      border-radius: 16px;
+      background: rgb(41, 48, 56);
+      .addCard__cardsRightMain {
+        padding: 20px 20px 28px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        p {
+          color: rgb(255, 255, 255);
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 34.57px;
+        }
+      }
+    }
+  }
+  .addCard__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    // margin-bottom: 145px;
+    .addCard__inputsGroup {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      p {
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+      }
+      .addCard__inputsWrapper {
+        padding: 14px 24px;
+        display: flex;
+        // flex-direction: column;
+        gap: 12px;
+        box-sizing: border-box;
+        border: 1px solid rgb(41, 48, 56);
+        border-radius: 48px;
+        background: rgb(41, 48, 56);
+        align-items: center;
+        input {
+          background: none;
+          outline: none;
+          color: rgb(255, 255, 255);
+        }
+        img {
+          width: 20px;
+        }
+      }
+    }
+  }
+  button {
+    margin: 110px 0;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 48px;
+    background: rgb(53, 92, 217);
+    padding: 15px 0;
+  }
+}

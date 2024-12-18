@@ -1,0 +1,108 @@
+.pay {
+  padding: 117px 43px;
+  width: 440px;
+  // height: 812px;
+  background: rgb(17 24 39);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  .pay_card {
+    display: flex;
+    justify-content: center;
+  }
+  .pay_actions {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    .pay_actions__wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      align-items: center;
+      cursor: pointer;
+      p {
+        color: rgb(162, 162, 167);
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 13px;
+      }
+    }
+  }
+  .pay_transaction {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .pay_transaction__top {
+      display: flex;
+      justify-content: space-between;
+      h3 {
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 500;
+      }
+      p {
+        color: rgb(0, 102, 255);
+        // font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    }
+    .pay_transaction__wrapper {
+      display: flex;
+      align-items: center;
+      gap: 17px;
+      cursor: pointer;
+      div {
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+        margin-right: 115px;
+        h3 {
+          width: 125px;
+          color: rgb(255, 255, 255);
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+        }
+        p {
+          color: rgba(255, 255, 255, 0.5);
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 12px;
+        }
+      }
+      p {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+  }
+  .pay_footer {
+    width: 440px;
+    padding: 20px 51px 30px 52px;
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: rgb(39, 39, 58);
+    align-items: center;
+    .pay_footer__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 9px;
+      cursor: pointer;
+      p {
+        font-size: 12px;
+        color: rgb(139, 139, 148);
+        &:hover {
+          color: rgb(0, 102, 255);
+        }
+      }
+    }
+  }
+}
